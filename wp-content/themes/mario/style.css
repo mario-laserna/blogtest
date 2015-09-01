@@ -25,5 +25,10 @@ body{
 }
 
 .content article{
-	width: 30%;
+	width: 80%;
+}
+
+.datos{
+	border-bottom: 1px solid orange;
+	margin-bottom: 1em;
 }
