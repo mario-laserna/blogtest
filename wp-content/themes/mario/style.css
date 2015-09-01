@@ -20,6 +20,11 @@ body{
 	color: white;
 }
 
+
+article h3{
+	color: orange;
+}
+
 .content {
 	padding: 0.5em 0.5em;
 }
@@ -31,4 +36,8 @@ body{
 .datos{
 	border-bottom: 1px solid orange;
 	margin-bottom: 1em;
+}
+
+figure{
+	text-align: center;
 }

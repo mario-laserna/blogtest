@@ -24,6 +24,9 @@
 					<small><?php the_date(); ?></small>
 				</div>
 			</header>
+			<figure>
+				<?php the_post_thumbnail('my-size'); ?>
+			</figure>
 			<?php the_excerpt();  ?>
 			<?php the_category(); ?>
 		</article>
