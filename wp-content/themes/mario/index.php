@@ -1,10 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-	<title><?php bloginfo('description'); ?></title>
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo(stylesheet_directory) ?>/normalize.css">
-	<link rel="stylesheet" type="text/css" href="<?php bloginfo(stylesheet_url) ?>">
-</head>
+<?php get_header(); ?>
 <body>
 
 <header class="header">
@@ -18,7 +12,7 @@
 	<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
 		<article>
 			<header>
-				<h3><?php the_title(); ?></h3>
+				<h3><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h3>
 				<div class="datos">
 					<strong><?php the_author(); ?></strong> -
 					<small><?php the_date(); ?></small>
@@ -39,5 +33,5 @@
 	<?php endif; ?>
 
 </section>
-</body>
-</html>
+
+<?php get_footer('negro'); ?>

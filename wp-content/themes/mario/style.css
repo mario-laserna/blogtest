@@ -41,3 +41,12 @@ article h3{
 figure{
 	text-align: center;
 }
+
+.footer-negro{
+	background-color: grey;
+}
+
+.footer-negro li{
+	display: inline-block;
+	color: white;
+}
