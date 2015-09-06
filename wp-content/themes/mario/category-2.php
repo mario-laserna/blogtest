@@ -1,10 +1,5 @@
-<?php get_header(); ?>
-<body class="body">
+<?php get_header('blog'); ?>
 
-<header class="header">
-	<h1><?php bloginfo('name'); ?></h1>
-	<h2><?php bloginfo('description'); ?></h2>
-</header>
 
 <section class="content">
 	<?php if(have_posts()) : while(have_posts()) : the_post(); ?>
