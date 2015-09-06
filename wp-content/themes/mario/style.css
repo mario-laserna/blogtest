@@ -50,3 +50,13 @@ figure{
 	display: inline-block;
 	color: white;
 }
+
+.container__item{
+	width: 90$;
+	margin: 0 auto;
+	display: block;
+}
+
+.body{
+	background-color: orange;
+}
