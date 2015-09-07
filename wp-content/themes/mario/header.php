@@ -4,4 +4,7 @@
 	<title><?php bloginfo('description'); ?></title>
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo(stylesheet_directory) ?>/normalize.css">
 	<link rel="stylesheet" type="text/css" href="<?php bloginfo(stylesheet_url) ?>">
+
+	<?php wp_head(); ?>
+
 </head>

@@ -60,3 +60,17 @@ figure{
 .body{
 	background-color: orange;
 }
+
+.sidebar{
+	width: 68%;
+	float: table-cell;
+}
+
+.table{
+	display: table;
+}
+
+aside{
+	display: table-cell;
+	width: 72%;
+}
