@@ -1,6 +1,8 @@
 <?php get_header(); ?>
 <body>
 
+<?php include TEMPLATEPATH.'/nav.php';  ?>
+
 <header class="header">
 	<h1><?php bloginfo('name'); ?></h1>
 	<h2><?php bloginfo('description'); ?></h2>
@@ -34,4 +36,4 @@
 
 </section>
 
-<?php get_footer('negro'); ?>
+<?php get_footer(); ?>
