@@ -134,3 +134,24 @@ aside{
 	text-decoration: none;
 
 }
+
+.sidebar{
+	color: black;
+	display: table;
+}
+
+.sidebar__item{
+	display: table-cell;
+	padding: 0.5em;
+}
+
+.sidebar__item a{
+	color: orange;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+.sidebar__item a::before{
+	content: " | ";
+	
+}

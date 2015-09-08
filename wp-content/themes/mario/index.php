@@ -8,6 +8,11 @@
 	<h2><?php bloginfo('description'); ?></h2>
 </header>
 
+<div class="sidebar">
+<?php
+	dynamic_sidebar('sidebar-header');
+?>
+</div>
 <section class="content">
 	<?php rewind_posts(); ?>
 	<?php query_posts('order=Asc&cat=2') ?>
@@ -35,5 +40,11 @@
 	<?php endif; ?>
 
 </section>
+
+<div class="sidebar">
+<?php
+	dynamic_sidebar('sidebar-footer');
+?>
+</div>
 
 <?php get_footer(); ?>
